@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Roboto', sans-serif;
+    background-color:#ECE8E1;
+
+
+    height: 100vh;
+}
+
+.blog-header{
+    text-align: center ;
+    background-color: #111111;
+    color: white;
+    padding: 50px;
+
+}
+
+.blog-title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.articles{
+    border: 1px solid #928F8B;
+    border-radius: 10px;
+    margin: 30px 50px 30px 50px;
+    padding: 15px;
+
+}
+
+.link:hover{
+    background-color: #f03e3e;
+}
+
+.link:focus{
+    border:2px solid black;  
+}
+
+.link{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background-color: #FF4655;
+    border-radius: 10px;
+}
+
+.blog-footer{
+    background-color: #111111;
+    color: white;
+
+    padding: 15px 30% 25px 30%;
+}
+
+.footer-paragrafo{
+    text-align: center;
+}
+
+.footer-title{
+    text-align: center;
+}
+
+.blog-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+  height: 40px;
+  border-radius: 10px;
+    margin-top:5px;
+}
+
+button{
+    height: 40px;
+    border-radius: 10px;
+
+    margin: 10px;
+
+    background-color: #FF4655;
+}
+
+button:hover{
+    background-color: #f03e3e;
+}
+
